@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sortinig", "Sortinig", "{385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{823F6605-4611-4875-B883-C1B29BDDA60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{C02F5DDB-7315-477E-8E88-98C50D415847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{823F6605-4611-4875-B883-C1B29BDDA60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{823F6605-4611-4875-B883-C1B29BDDA60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{823F6605-4611-4875-B883-C1B29BDDA60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{823F6605-4611-4875-B883-C1B29BDDA60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02F5DDB-7315-477E-8E88-98C50D415847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02F5DDB-7315-477E-8E88-98C50D415847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02F5DDB-7315-477E-8E88-98C50D415847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02F5DDB-7315-477E-8E88-98C50D415847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{823F6605-4611-4875-B883-C1B29BDDA60E} = {385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}
+		{C02F5DDB-7315-477E-8E88-98C50D415847} = {385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}
+	EndGlobalSection
+EndGlobal
