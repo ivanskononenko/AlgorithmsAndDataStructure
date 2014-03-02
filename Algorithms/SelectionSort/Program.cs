@@ -1,36 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InsertionSort
+namespace SelectionSort
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int[] arr = { 8, 7, 6, 5, 4, 3, 2 };
+            int[] arr = { 3, 7, 4, 4, 6, 5, 8 };
 
             Console.Write("Input Array: ");
             for (int i = 0; i < arr.Length; i++)
                 Console.Write(" {0}", arr[i]);
 
-            for (int i = 1; i < arr.Length; i++)
+
+            for (int i = 0; i < arr.Length - 1; i++)
             {
-                int currElem = arr[i];
-                int prevKey = i - 1;
+                int minIdex = i;
 
-                Console.WriteLine();
-
-                while (prevKey >= 0 && arr[prevKey] > currElem)
+                for (int j = i + 1; j < arr.Length; j++)
                 {
-                    arr[prevKey + 1] = arr[prevKey];
-                    arr[prevKey] = currElem;
-                    prevKey--;
+                    if (arr[minIdex] > arr[j])
+                        minIdex = j;
                 }
+
+                int tmp = arr[i]; 
+                arr[i] = arr[minIdex];
+                arr[minIdex] = tmp;
+                
             }
+
 
             Console.WriteLine();
 
@@ -40,7 +42,6 @@ namespace InsertionSort
 
 
             Console.ReadLine();
-             
         }
     }
 }

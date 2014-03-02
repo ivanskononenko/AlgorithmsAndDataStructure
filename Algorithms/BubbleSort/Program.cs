@@ -10,35 +10,34 @@ namespace BubbleSort
     {
         static void Main(string[] args)
         {
-             int[] arr = { 3, 4, 4, 5, 6, 7, 8 };
+            int[] arr = { 3, 7, 4, 4, 6, 5, 8 };
 
-            int arrayAccesCount = 0;
-            int swapCount = 0;
+            Console.Write("Input Array: ");
+            for (int i = 0; i < arr.Length; i++)
+                Console.Write(" {0}", arr[i]);
+
             for (int i = 0; i < arr.Length - 1; i++)
             {
                 bool swaped = false;
                 for (int j = i; j < arr.Length - 1; j++)
                 {
-                    arrayAccesCount++;
                     if (arr[j] > arr[j + 1])
                     {
                         Swap(arr, j, j + 1);
-                        swapCount++;
                         swaped = true;
                     }
                 }
                 if (!swaped)
                     break;
-                
             }
-
-            foreach (int el in arr)
-                Console.Write(el);
 
             Console.WriteLine();
 
-            Console.WriteLine(arrayAccesCount);
-            Console.WriteLine(swapCount);
+            Console.Write("Output Array: ");
+            foreach (int el in arr)
+                Console.Write(" {0}", el);
+
+
             Console.ReadLine();
 
         }
