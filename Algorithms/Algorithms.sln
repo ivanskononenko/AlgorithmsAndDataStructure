@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{28E0A932-7154-4E05-8F0E-1ED9E3B70BB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1_Coursera", "Week1_Coursera", "{013FBFE7-6049-4FF0-94B0-B470EEDFF77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFind", "Week1_Coursera\UnionFind\UnionFind.csproj", "{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{28E0A932-7154-4E05-8F0E-1ED9E3B70BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28E0A932-7154-4E05-8F0E-1ED9E3B70BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28E0A932-7154-4E05-8F0E-1ED9E3B70BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +45,6 @@ Global
 		{823F6605-4611-4875-B883-C1B29BDDA60E} = {385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}
 		{C02F5DDB-7315-477E-8E88-98C50D415847} = {385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}
 		{28E0A932-7154-4E05-8F0E-1ED9E3B70BB7} = {385B23DD-7C1B-44EB-A9B6-0C08D199EBDE}
+		{35B06071-2E6F-4DEE-94EC-1D9FA91E1BDF} = {013FBFE7-6049-4FF0-94B0-B470EEDFF77B}
 	EndGlobalSection
 EndGlobal
