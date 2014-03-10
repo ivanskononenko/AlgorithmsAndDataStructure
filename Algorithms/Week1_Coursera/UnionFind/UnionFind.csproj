@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>UnionFind.WeightedQuickUnion</StartupObject>
+    <StartupObject>UnionFind.Percolation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,9 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FixedCapacityStackOfStrings.cs" />
+    <Compile Include="LinkedQueueOfStrings.cs" />
+    <Compile Include="LinkedStackOfStrings.cs" />
+    <Compile Include="Percolation.cs" />
     <Compile Include="QuickFindUF.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickUnionUF.cs" />
+    <Compile Include="ResizingArrayStackOfStrings.cs" />
     <Compile Include="WeightedQuickUnion.cs" />
   </ItemGroup>
   <ItemGroup>

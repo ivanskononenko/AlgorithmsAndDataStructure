@@ -11,7 +11,7 @@ public class Percolation {
         percolationGrid = new int[N][N];
 
         for(int i=0; i<N;i++)
-            for(j=0;j<N;j++)
+            for(int j=0;j<N;j++)
                 percolationGrid[i][j] = 0;
 
 
